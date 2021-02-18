@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  color: #2d3248;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.bg-svg-top {
+  position: absolute;
+  right: 55%;
+  bottom: 50%;
+  z-index: -999;
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+
+.bg-svg-bottom {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  z-index: -999;
+  -webkit-transform: translateX(-10%);
+          transform: translateX(-10%);
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
+}
+
+.card-pattern {
+  display: block;
+}
+
+.profile-pic-wrapper {
+  text-align: center;
+}
+
+.profile-pic {
+  position: absolute;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.basic-info {
+  margin-top: 4.5rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.basic-info h1 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.basic-info h1 span {
+  font-weight: 400;
+  margin-left: 0.4rem;
+  color: #969696;
+}
+
+.basic-info p {
+  color: #6a6f81;
+  font-size: 0.9rem;
+}
+
+.stats-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 1rem;
+  border-top: 1px solid #f1f1f1;
+}
+
+.stat h2 {
+  font-size: 1.125rem;
+}
+
+.stat p {
+  font-size: 0.65rem;
+  color: #6a6f81;
+  letter-spacing: 0.1rem;
+}
